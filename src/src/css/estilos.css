@@ -1,0 +1,84 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ background-image:url(/src/imagens/3\ viagen.jpg) ;
+
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.cabecalho{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+    width: 600px;
+    height: 130px;
+    background-color: rgb(59, 189, 145);
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 18px;
+    border-color: rgb(44, 44, 180) rgb(87, 5, 5) rgb(83, 72, 10) rgb(6, 71, 71);
+    display: flex;
+    justify-content: center ;
+ 
+ }
+
+ h2{
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+    width: 580px;
+    height: 70px;
+    background-color: rgb(59, 189, 145);
+    border-radius: 50px;
+border-style: inset;
+ }
+
+ .cartao.selecionado{
+    
+    opacity: 1;
+   padding: 15px;
+  
+} 
+img{
+    border-style: solid;
+    border-radius: 50px;
+    background-color: rgb(80, 46, 46);
+}
+.cartao .informacoes{
+    border-radius: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    padding: 13px;
+    width: 520px;
+    height: 60px;
+    background-color: rgb(186, 224, 141);
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(39, 39, 116) rgb(117, 5, 5) rgb(133, 121, 57) rgb(30, 78, 78);
+    justify-content: center;
+    
+}
+
+h3{
+     background-color: rgb(55, 55, 94) ;
+    border-radius: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 18px;
+    padding: 13px;
+    width: 520px;
+    height: 60px;
+    border-style: solid;
+
+}
+figcaption{
+    background-color: rgb(148, 148, 44);
+    border-radius: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 18px;
+    padding: 13px;
+    width: 520px;
+    height: 60px;
+    border-style: solid;
+}
