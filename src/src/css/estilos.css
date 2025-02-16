@@ -24,16 +24,7 @@ body{
  
  }
 
- h2{
-    justify-content: center;
-    margin: 10px;
-    padding: 15px;
-    width: 580px;
-    height: 70px;
-    background-color: rgb(59, 189, 145);
-    border-radius: 50px;
-border-style: inset;
- }
+ 
 
  .cartao.selecionado{
     
@@ -44,16 +35,16 @@ border-style: inset;
 img{
     border-style: solid;
     border-radius: 50px;
-    background-color: rgb(80, 46, 46);
+    background-color: rgb(124, 39, 39);
 }
 .cartao .informacoes{
     border-radius: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 10px;
-    padding: 13px;
+    padding: 15px;
     width: 520px;
-    height: 60px;
-    background-color: rgb(186, 224, 141);
+    height: 70px;
+    background-color: rgb(212, 221, 201);
     border-style: solid;
     border-width: 8px;
     border-color: rgb(39, 39, 116) rgb(117, 5, 5) rgb(133, 121, 57) rgb(30, 78, 78);
@@ -61,24 +52,35 @@ img{
     
 }
 
-h3{
-     background-color: rgb(55, 55, 94) ;
+
+figcaption{
+    background-color: rgb(179, 179, 54);
     border-radius: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 18px;
     padding: 13px;
-    width: 520px;
-    height: 60px;
+    width: 250px;
+    height: 50px;
+    border-style: solid;
+}
+h2{
+    background-color: rgb(170, 211, 197);
+    border-radius: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 18px;
+    padding: 13px;
+    width: 250px;
+    height: 50px;
     border-style: solid;
 
 }
-figcaption{
-    background-color: rgb(148, 148, 44);
+h3{
+    background-color: aqua;
     border-radius: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 18px;
     padding: 13px;
-    width: 520px;
-    height: 60px;
+    width: 250px;
+    height: 70px;
     border-style: solid;
 }
